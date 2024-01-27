@@ -1,0 +1,8 @@
+#General recommendations:
+#1. Be sure to change credentials as soon as possible, a key part of this is knowing what is all out there.
+#2. Limit your attack surface. If a service isn't required, block it or turn it off. Generally, blocking the individual
+#IPs/netblocks of systems detected as attackers isn't feasible in the real world and doesn't really work in the
+#competition. Both real world attackers and the red team in CCDC can change their IPs when they want to and you risk
+#blocking legitimate traffic. Also, in the real world, when you get to many rules enabled on your firewall, performance
+#will be impacted. Instead, focus on providing the services that are required and limiting other access.
+#3. Apply the patches you can
